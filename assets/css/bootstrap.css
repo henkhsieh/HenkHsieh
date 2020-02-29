@@ -237,9 +237,7 @@ position: relative;
   margin-top:0.5em;
   overflow: hidden;
 }
-#portfolio{
-  scroll-behavior: smooth;
-}
+
 .portfolio a img:hover{
   box-shadow: 0 0 11px rgba(33,33,33,.2);
   transition:0.3s ease;
