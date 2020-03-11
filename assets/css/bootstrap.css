@@ -59,7 +59,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #970316s;
+  color: #3C3C3C;
   text-align: left;
   background-color: #fff;
 }
@@ -99,6 +99,7 @@ h1, h2, h3, h4, h5, h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  line-height: 1.75em;
 }
 
 abbr[title],
@@ -238,6 +239,9 @@ position: relative;
   overflow: hidden;
 }
 
+#portfolio{
+  scroll-behavior: smooth;
+}
 .portfolio a img:hover{
   box-shadow: 0 0 11px rgba(33,33,33,.2);
   transition:0.3s ease;
@@ -458,7 +462,7 @@ h6, .h6 {
 }
 
 .display-3 {
-  font-size: 4.5rem;
+  font-size: 5rem;
   font-weight: 500;
   line-height: 1.2;
 }
@@ -466,7 +470,7 @@ h6, .h6 {
 .display-4 {
   font-size: 3.5rem;
   font-weight: 700;
-  line-height: 1.2;
+  line-height: 1;
   text-align: center;
 }
 
@@ -2574,14 +2578,14 @@ fieldset:disabled a.btn {
 
 .btn-info {
   color: #fff;
-  background-color: #17a2b8;
-  border-color: #17a2b8;
+  background-color: #970316;
+  border-color: #970316;
 }
 
 .btn-info:hover {
   color: #fff;
-  background-color: #138496;
-  border-color: #117a8b;
+  background-color: #4d010a;
+  border-color: #4d010a;
 }
 
 .btn-info:focus, .btn-info.focus {
@@ -2590,15 +2594,15 @@ fieldset:disabled a.btn {
 
 .btn-info.disabled, .btn-info:disabled {
   color: #fff;
-  background-color: #17a2b8;
-  border-color: #17a2b8;
+  background-color: #970316;
+  border-color: #970316;
 }
 
 .btn-info:not(:disabled):not(.disabled):active, .btn-info:not(:disabled):not(.disabled).active,
 .show > .btn-info.dropdown-toggle {
   color: #fff;
-  background-color: #117a8b;
-  border-color: #10707f;
+  background-color: #4d010a;
+  border-color: #4d010a;
 }
 
 .btn-info:not(:disabled):not(.disabled):active:focus, .btn-info:not(:disabled):not(.disabled).active:focus,
@@ -5158,7 +5162,7 @@ a.badge-dark:focus, a.badge-dark.focus {
 }
 
 .about{
-  margin: 0rem 0.5rem 0rem 0.5rem;
+  margin: 0.5rem 0rem 0.5rem 0rem;
 }
 
 .about img{
@@ -5167,50 +5171,77 @@ a.badge-dark:focus, a.badge-dark.focus {
   height: 25rem;
 }
 
+.casestudy{
+ margin: 2rem 0rem 2rem 0rem;
+}
+
+.casestudy img{
+  padding-bottom: 2rem; 
+  width: 100%;
+  height: auto;
+}
+
+.casestudy h1{
+  text-align: left;
+  position:relative;
+  color:#3C3C3C;
+}
+.casestudy h2{
+  margin-top: 4rem;
+  margin-bottom: 0.5rem;
+}
+.casestudy h4{
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+.casestudy p {
+  margin-bottom: 1rem;
+  hyphens: auto;
+}
+
 .jumbotron {
-  padding: 4rem 0rem 2rem 0rem;
+  padding: 9rem 0rem 3rem 0rem;
   margin-top: 2rem;
   font-family:'Roboto';
-  background-color: transparent;
-
 }
 .jumbotron h1{
-  line-height:6.5rem;
+  line-height:6rem;
   text-align: left;
   position:relative;
   color:#3C3C3C;
 }
 .jumbotron a{
   color:#970316;
-  padding-bottom: 0.25rem;
-  background-color: transparent;
-  border-bottom: 4px solid transparent;
+
 }
 
 .jumbotron a:hover{
-  border-bottom: 4px solid currentColor;
-  transition:0.4s ease-in-out;
+  text-shadow: 0px 0px 20px #D7DBDD;
+  transition: ease-out 0.4s;
+  color: #750110;
 }
 
 .jumbotron p{
   text-align: center;
   position: relative;
+
 }
 
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .jumbotron {
-    padding: 9rem 0rem 5rem 0rem;
-     font-size: 6rem;
+    padding: 5rem 0rem 1rem 0rem;
+    margin-top: 2rem;
   }
   .jumbotron h1{
-  line-height:6.9rem;
+  line-height:4.5rem;
+  font-size: 4rem;
   text-align: left;
   position:relative;
   color:#3C3C3C;
   }
   .jumbotron a{
   color:#970316;
-  padding-bottom: 0.25rem;
+    font-size: 4rem;
   background-color: transparent;
   border-bottom: 4px solid transparent;
 }
@@ -5379,6 +5410,7 @@ a.badge-dark:focus, a.badge-dark.focus {
     background-position: 0 0;
   }
 }
+
 
 .progress {
   display: -ms-flexbox;
