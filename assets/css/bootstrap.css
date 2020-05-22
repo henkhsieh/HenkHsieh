@@ -5905,6 +5905,11 @@ a.close.disabled {
   margin-top: 2rem;
 }
 
+.modal-body p{
+  margin-bottom: 0.5rem;
+}
+
+
 .modal.fade .modal-dialog {
   transition: -webkit-transform 0.3s ease-out;
   transition: transform 0.3s ease-out;
