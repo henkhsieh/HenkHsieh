@@ -5233,15 +5233,15 @@ a.badge-dark:focus, a.badge-dark.focus {
     margin-top: 2rem;
   }
   .jumbotron h1{
-  line-height:4.5rem;
-  font-size: 4rem;
+  line-height:3rem;
+  font-size: 2.5rem;
   text-align: left;
   position:relative;
   color:#3C3C3C;
   }
   .jumbotron a{
   color:#970316;
-    font-size: 4rem;
+    font-size: 2.5rem;
   background-color: transparent;
   border-bottom: 4px solid transparent;
 }
