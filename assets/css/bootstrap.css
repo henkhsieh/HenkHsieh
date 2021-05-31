@@ -5400,7 +5400,7 @@ a.badge-dark:focus, a.badge-dark.focus {
 }
 
 .jumbotron {
-  padding:12% 0 3% 0;  /*padding:12rem 0rem 0rem 0rem;*/
+  padding:14% 0 3% 0;  /*padding:12rem 0rem 0rem 0rem;*/
   margin-top: 2rem;
   height: 100vh;
 }
