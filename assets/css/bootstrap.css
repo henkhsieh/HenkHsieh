@@ -6112,6 +6112,12 @@ a.close.disabled {
   outline: 0;
 }
 
+.modal img{
+  width: 100%;
+  height: auto;
+
+}
+
 .modal-dialog {
   position: relative;
   width: auto;
