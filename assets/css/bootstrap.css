@@ -5399,6 +5399,10 @@ a.badge-dark:focus, a.badge-dark.focus {
   font-weight: 400;
 }
 
+.casestudy-paragraph ol {
+  margin-bottom: 1.5rem;
+}
+
 .jumbotron {
   padding:14% 0 3% 0;  /*padding:12rem 0rem 0rem 0rem;*/
   margin-top: 2rem;
