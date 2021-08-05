@@ -6131,6 +6131,10 @@ a.close.disabled {
   height:auto;
 }
 
+.modal-body a{
+  color: #D90B1C;
+}
+
 .modal-body h3{
   margin-top: 2rem;
   font-weight: 700;
